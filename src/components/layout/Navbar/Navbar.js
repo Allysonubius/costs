@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import Container from '../Container/Container';
 
-import styles from './Navbar.module.css';
+//import styles from './Navbar.module.css';
 import logo from '../../../img/costs_logo.png';
 
 function Navbar(){
@@ -15,6 +15,7 @@ function Navbar(){
                 </Link>
                 <Link to="/">Home</Link>
                 <Link to="/contact">Contato</Link>
+                <Link to="/projects">Projects</Link>
                 <Link to="/company">Empresa</Link>
                 <Link to="newProject">Novo Projeto</Link>
             </Container>

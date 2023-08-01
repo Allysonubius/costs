@@ -6,7 +6,8 @@ import Home from './components/pages/Home/Home';
 import Company from './components/pages/Company/Company';
 import NewProject from './components/pages/NewProject/NewProject';
 import Container from './components/layout/Container/Container';
-import Contact from './components/pages/Contact/Contact.';
+import Contact from './components/pages/Contact/Contact';
+import Projects from './components/pages/Projects/Projects';
 
 import Navbar from './components/layout/Navbar/Navbar';
 import Footer from './components/layout/Footer/Footer';
@@ -22,6 +23,9 @@ function App() {
           </Route>
           <Route path="/company">
             <Company/>
+          </Route>
+          <Route path="/projects">
+            <Projects/>
           </Route>
           <Route path="/contact">
             <Contact/>
